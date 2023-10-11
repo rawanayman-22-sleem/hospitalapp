@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:hospitalapp/Screens/Receptionist/SpitialistRecep.dart';
 import '../../Const/color.dart';
 import '../AnalysisEmployee/SpitialistAnaly.dart';
 import '../HR/HRSpecialistScreen.dart';
@@ -65,27 +66,27 @@ class PrototypeMap extends StatelessWidget {
                         ),
                       ),),
                   ),
-                  // Padding(
-                  //   padding: const EdgeInsets.only(right: 10),
-                  //   child:TextButton(onPressed: (){
-                  //     Navigator.push(context, MaterialPageRoute(
-                  //       builder: (context) => Rece()),);},
-                  //     child: Padding(
-                  //       padding: const EdgeInsets.all(5.0),
-                  //       child: Text("  Receptionist  ",style: TextStyle(
-                  //           fontWeight: FontWeight.bold
-                  //       ),),
-                  //     ),style: ButtonStyle(
-                  //       foregroundColor: MaterialStateProperty.all(lightgreen),
-                  //       backgroundColor: MaterialStateProperty.all(wihte),
-                  //       shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                  //           RoundedRectangleBorder(
-                  //               borderRadius: BorderRadius.circular(10),
-                  //               side: BorderSide(color: background)
-                  //           )
-                  //       ),
-                  //     ),),
-                  // ),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 10),
+                    child:TextButton(onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(
+                        builder: (context) => SpitialistRecep()),);},
+                      child: Padding(
+                        padding: const EdgeInsets.all(5.0),
+                        child: Text("  Receptionist  ",style: TextStyle(
+                            fontWeight: FontWeight.bold
+                        ),),
+                      ),style: ButtonStyle(
+                        foregroundColor: MaterialStateProperty.all(lightgreen),
+                        backgroundColor: MaterialStateProperty.all(wihte),
+                        shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                            RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10),
+                                side: BorderSide(color: background)
+                            )
+                        ),
+                      ),),
+                  ),
                   Padding(
                     padding: const EdgeInsets.only(left: 10),
                     child:TextButton(onPressed: (){Navigator.push(context, MaterialPageRoute(
@@ -163,7 +164,7 @@ class PrototypeMap extends StatelessWidget {
                         builder: (context) => HRSpecialistScreen()),);},
                       child: Padding(
                         padding: const EdgeInsets.all(5.0),
-                        child: Text("HR",style: TextStyle(
+                        child: Text(" HR ",style: TextStyle(
                             fontWeight: FontWeight.bold
                         ),),
                       ),style: ButtonStyle(

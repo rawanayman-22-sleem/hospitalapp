@@ -28,7 +28,7 @@ class HRSpecialistScreen extends StatelessWidget {
             Navigator.push(context, MaterialPageRoute(builder: (context)=> ProfileScreen()),);
           },
 
-       child: Image(image: AssetImage("asset/image/Rectangle 1940.png"),
+         child: Image(image: AssetImage("asset/image/Rectangle 1940.png"),
             height: 5,
             width: 1),
         ),
@@ -41,7 +41,7 @@ class HRSpecialistScreen extends StatelessWidget {
             ),
             ),
             Text(
-              "Specialist , Manger",style: TextStyle(
+              "Specialist , HR",style: TextStyle(
               fontSize: 10,
               color: lightgreen,
             ),
