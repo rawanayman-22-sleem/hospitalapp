@@ -6,7 +6,7 @@ import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:hospitalapp/Screens/Receptionist/SpitialistRecep.dart';
 import 'package:hospitalapp/Screens/Receptionist/TaskDetails6.dart';
 
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 import '../ReportScreen/ReportDetScreen.dart';
 
 class TasksRecep extends StatefulWidget {

@@ -2,7 +2,7 @@ import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hospitalapp/Screens/Receptionist/TaskRec.dart';
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 import '../ReportScreen/ReportDetScreen.dart';
 
 class TaskDetails6 extends StatefulWidget {

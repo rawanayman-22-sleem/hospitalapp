@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../Const/color.dart';
+import '../Constant/color.dart';
 import 'CustomText.dart';
 
 class CustomMaxColorText extends StatelessWidget {

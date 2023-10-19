@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hospitalapp/Screens/AnalysisEmployee/SpitialistAnaly.dart';
 
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 import 'CaseAnaly.dart';
 
 class CaseDetailAnaly extends StatefulWidget {

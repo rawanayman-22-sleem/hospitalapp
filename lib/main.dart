@@ -4,6 +4,7 @@ import 'package:hospitalapp/Screens/Manger/SpitialistManeger.dart';
 import 'Screens/AnalysisEmployee/CaseAnaly.dart';
 import 'Screens/Doctor/RequestDoc.dart';
 import 'Screens/FirstScreens/Loading.dart';
+import 'Screens/FirstScreens/LoginScreen.dart';
 import 'Screens/HR/HRSpecialistScreen.dart';
 import 'Screens/Manger/TaskDetails4.dart';
 import 'Screens/Nurse/SpitialistNur.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: LoadingScreen(),
+      home: LoginScreen(),
     );
   }
 }

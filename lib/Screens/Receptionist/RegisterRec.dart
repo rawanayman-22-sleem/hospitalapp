@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:hospitalapp/Screens/Receptionist/SpitialistRecep.dart';
 
 
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 
 class RegisterRec extends StatelessWidget {
   const RegisterRec({Key? key}) : super(key: key);

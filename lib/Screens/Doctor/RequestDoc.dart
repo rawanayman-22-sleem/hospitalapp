@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hospitalapp/Screens/Doctor/CaseDetailsDoc.dart';
 
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 import 'MedicalMeasDoc.dart';
 import 'MedicalRecDoc.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hospitalapp/Screens/HR/HRSpecialistScreen.dart';
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 
 
 class RegisterScreen extends StatelessWidget {

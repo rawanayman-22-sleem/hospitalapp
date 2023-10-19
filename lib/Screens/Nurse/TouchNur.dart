@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 import 'RegisterNur.dart';
 
 class TouchScreenNur extends StatelessWidget {

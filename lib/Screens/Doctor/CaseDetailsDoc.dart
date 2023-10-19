@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:hospitalapp/Screens/Doctor/AddNurseDoc.dart';
 import 'package:hospitalapp/Screens/Doctor/SpitialistDoc.dart';
 
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 import 'CaseScreen.dart';
 import 'RequestDoc.dart';
 

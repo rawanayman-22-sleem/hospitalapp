@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hospitalapp/Screens/Nurse/SpitialistNur.dart';
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 import 'CaseDetailsNur.dart';
 
 

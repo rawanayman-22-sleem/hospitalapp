@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hospitalapp/Screens/Receptionist/TaskRec.dart';
 
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 import '../Notification/Notification.dart';
 import '../Profil/ProfileScreen.dart';
 import '../ReportScreen/ReportSccreen.dart';

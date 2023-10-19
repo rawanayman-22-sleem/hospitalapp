@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:hospitalapp/Screens/Nurse/AttendNur.dart';
 import 'package:hospitalapp/Screens/Nurse/CallNur.dart';
 import 'package:hospitalapp/Screens/Nurse/TaskNur.dart';
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 import '../Notification/Notification.dart';
 import '../Profil/ProfileScreen.dart';
 import '../ReportScreen/ReportSccreen.dart';

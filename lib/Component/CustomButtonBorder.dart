@@ -3,7 +3,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../Const/color.dart';
+import '../Constant/color.dart';
 
 class CustomButtonBorder extends StatelessWidget {
   Color buttonColor;

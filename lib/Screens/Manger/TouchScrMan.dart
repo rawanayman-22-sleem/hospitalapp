@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:hospitalapp/Const/color.dart';
+import 'package:hospitalapp/Constant/color.dart';
 import 'package:hospitalapp/Screens/Manger/RegisterScrMan.dart';
 
 import '../AnalysisEmployee/RegisterAnaly.dart';

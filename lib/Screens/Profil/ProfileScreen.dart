@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});

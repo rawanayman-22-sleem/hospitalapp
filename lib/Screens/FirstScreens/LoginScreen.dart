@@ -2,18 +2,18 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
 import '../../Component/CustomButton.dart';
 import '../../Component/CustomText.dart';
-import '../../Const/color.dart';
+import '../../Constant/NavigatorService.dart';
+import '../../Constant/color.dart';
 import '../Doctor/SpitialistDoc.dart';
 
 class LoginScreen extends StatelessWidget {
   LoginScreen({Key? key}) : super(key: key);
-  //var formKey = GlobalKey<FormState>();
+  var formKey = GlobalKey<FormState>();
   TextEditingController emailController = TextEditingController();
   TextEditingController passController = TextEditingController();
-  var formKey = GlobalKey<FormState>();
+
   bool _obscureText = true;
   bool _isHidden = true;
 
@@ -196,10 +196,13 @@ class LoginScreen extends StatelessWidget {
                         buttonColor: lightgreen,
                         borderRadius: 7,
                         onPressed: () {
+                      if (formKey.currentState!.validate()) {
+                        NavigationService.instance.navigationKey!.currentState!
+                            .pushNamed("SpitialistDoc");
 
-                          Navigator.push(context, MaterialPageRoute(
-                              builder: (context) => SpitialistDoc()),);
-
+                        // Navigator.push(context, MaterialPageRoute(
+                        // builder: (context) => SpitialistDoc()),);
+                      }
                         },
 
                         widget: Padding(

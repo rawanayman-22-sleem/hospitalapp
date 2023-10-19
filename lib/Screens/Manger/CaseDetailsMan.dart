@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hospitalapp/Screens/Manger/CaseMan.dart';
 
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 
 class CaseDetailsMan extends StatelessWidget {
   const CaseDetailsMan({Key? key}) : super(key: key);

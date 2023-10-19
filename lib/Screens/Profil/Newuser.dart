@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 import '../../Component/CustomButton.dart';
 import '../../Component/CustomText.dart';
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 import '../Employee/EmployeeScreen.dart';
 import 'ProfileScreen.dart';
 

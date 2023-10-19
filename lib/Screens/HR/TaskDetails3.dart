@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hospitalapp/Screens/HR/TaskHR.dart';
 
-import '../../Const/color.dart';
+import '../../Constant/color.dart';
 import '../ReportScreen/ReportDetScreen.dart';
 
 class TaskDetails3 extends StatefulWidget {
